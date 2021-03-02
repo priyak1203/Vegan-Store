@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins&display=swap');
+
+
+body {
+    margin: 0;   
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ---- Top Bar Items Styles ---- */ 
+
+#top-bar {
+    width: 100%;
+    height: 77px;
+   /* padding: 0 28px; */
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color: white;
+}
+
+#logo {
+   width: 40px;
+   padding: 0 28px;
+}
+
+#topbar-right {
+    margin: 0 48px;
+}
+
+#topbar-right a {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 24px;
+}
+
+#topbar-right button{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #aad236 ;
+    padding: 9px 34px;
+    text-transform: uppercase;
+    border: 0 ;
+    border-radius: 4px;
+}
+
+
+/* ---- Landing Page Items Style ----- */ 
+#main-banner { 
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');
+    background-position: left;
+    background-size: cover;   
+}
+
+#main-banner h1{
+    width: 1100px;
+    font-weight: 600;
+    font-size: 44px;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+#main-banner p{
+    width: 1100px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding-top: 32px;
+}
+
+/* ---- Steps Section Items Styles ---- */ 
+
+#steps-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:stretch ;
+}
+
+.steps-item {
+    width: 25%;
+    padding: 112px 48px;
+    text-align: center;
+    color: white;
+}
+
+.steps-item i {
+    font-size: 96px;
+}
+
+.steps-item h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.steps-item p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    margin-top: 0;
+}
+
+#step-one {
+    background-color: #5acda6;
+}
+
+#step-two {
+    background-color: #91ac41;
+}
+
+#step-three {
+    background-color: #e4b476 ;
+}
+
+#step-four {
+    background-color: #f69dad ;
+}
+
+/* ---- Stores section Items Styles ---- */
+#stores-section {   
+    width: 100%;
+    background-color: #f7eee2;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+
+#store-items-container {
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    margin: 0 auto;
+}
+
+.store-item {
+    width: 25%;
+    text-align: center;
+    padding: 24px;
+}
+
+.icon-wrapper {
+    display: inline-block;
+    padding: 40px;
+    background-color: #e3b375 ;
+    border-radius: 50%;
+    color: white;   
+}
+
+.icon-wrapper i {
+    font-size: 60px;
+}
+
+/* ---- Testimonials Section Items Styles ---- */ 
+#testimonials-section {
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+
+#testimonials-container {
+    width: 1140px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.testimonial-item {
+    width: 25%;
+    text-align: center;
+    background-color:  #f5f6fb; 
+    padding: 40px 30px;
+    margin: 16px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    
+}
+
+.testimonial-item img{
+    width: 80px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+}
+
+.testimonial-message {
+    color: #8b8b99;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    margin: 0;
+
+}
+
+.testimonial-item h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+.job-role {
+    color: #8b8b99;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+
+/* ---- Common Styles ---- */ 
+.fresh-food-heading {
+    color: #91ac41;
+    font-size:24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+
+}
+
+.our-store-heading {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.store-desc {
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99; 
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+
